@@ -1,4 +1,4 @@
-# este es mi primer 
+# este es mi primer proyecto de angular
 
 donde intento aprender los fundamentos de angular y conocer un poco de typescript ya que no tengo experiencia con ninguno de los dos.
 
