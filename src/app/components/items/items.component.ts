@@ -29,8 +29,19 @@ export class ItemsComponent implements OnInit {
         price: 45,
         quantity: 60,
         completed: false
+      },
+      {
+        id: 2,
+        title: 'platano',
+        ditail: 'verde',
+        price: 30,
+        quantity: 20,
+        completed: true
       }
     ];
   }
 
+  deleteItem(item: Item){
+    this.items = this.items.filter( x => x.id !== item.id )
+  }
 }
