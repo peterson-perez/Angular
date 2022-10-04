@@ -50,3 +50,7 @@ div {
     box-sizing: border-box;
     padding: 0 5px;
 }
+
+.delete {
+    background-color: rgb(211, 60, 60);
+}
