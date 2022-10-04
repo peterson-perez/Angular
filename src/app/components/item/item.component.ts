@@ -19,11 +19,10 @@ export class ItemComponent implements OnInit {
   }
 
   onDelete(item: Item) {
-     this.deleteItem.emit(item);
-     this.toggleItem.emit(item)
+    this.deleteItem.emit(item);
   }
 
-  onToggle(item: Item){
+  onToggle(item: Item) {
     item.completed = !item.completed;
     this.toggleItem.emit(item);
   }
